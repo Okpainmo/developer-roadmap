@@ -6,6 +6,7 @@ import { defineConfig } from 'astro/config';
 import rehypeExternalLinks from 'rehype-external-links';
 import { serializeSitemap, shouldIndexPage } from './sitemap.mjs';
 
+
 export default defineConfig({
   site: 'https://roadmap.sh',
   markdown: {
